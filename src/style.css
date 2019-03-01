@@ -1,0 +1,32 @@
+body {
+  color: purple;
+}
+
+.is-hidden {
+  max-height: 0 !important;
+}
+
+.dropdown {
+  padding: 10px;
+  border: 1px solid #ddd;
+  display: inline-block;
+}
+
+.dropdown-options,
+.dropdown-preview {
+  cursor: pointer;
+}
+
+.dropdown-options {
+  max-height: 20em;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+}
+
+.rotate {
+  transform: rotate(-90deg);
+}
+
+i {
+  transition: transform 0.2s ease-out;
+}
